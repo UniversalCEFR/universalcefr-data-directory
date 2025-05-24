@@ -105,10 +105,12 @@ An initiative started as a collaboration between the researchers around the worl
 ### How to Join?
 We want to grow this community of researchers, language experts, and educators to further advance openly accessible CEFR/language proficiency assessment datasets for all. 
 
-If you're interested in this direction and/or have open dataset/s you want to add to UniversalCEFR for better exposure and utility to researchers, please send an email using the contact details in the section below. We will properly acknowledge you across the UniversalCEFR platforms.
+If you're interested in this direction and/or have open dataset/s you want to add to UniversalCEFR for better exposure and utility to researchers, please fill up this **[form](https://forms.office.com/e/hjd7ew0M8C)**. 
+
+When we add your dataset to UniversalCEFR, we will properly acknowledge you across the UniversalCEFR platforms.
 
 ### Contact
-For interests to join/add datasets, questions, concerns, clarifications, and issues, please contact [Joseph Marvin Imperial](https://www.josephimperial.com/) (jmri20@bath.ac.uk).
+For questions, concerns, clarifications, and issues, please contact [Joseph Marvin Imperial](https://www.josephimperial.com/) (jmri20@bath.ac.uk).
 
 ## Reference
 Please use the following information when citing UniversalCEFR:
