@@ -19,7 +19,7 @@ UniversalCEFR is a largescale, multilingual, multidimensional dataset comprising
 To enable open research in both automated readability and language
 proficiency assessment, UniversalCEFR comprises curated from educational and learner-oriented resources, standardized into a unified data format to support consistent processing, analysis, and modeling across tasks and languages.
 
-### Standardised Format 
+## Standardised UniversalCEFR Data Format / Schema
 To ensure interoperability, transformation, and machine readability, adopted **standardised JSON format** for each CEFR-labeled text. These fields include the source dataset, language, granularity (document, paragraph, sentence, discourse), production category (learner or reference), and license.
 
 | **Field**         | **Description**                                                                                                                                                                                                                                                                                       |
@@ -35,6 +35,10 @@ To ensure interoperability, transformation, and machine readability, adopted **s
 
 
 ## The UniversalCEFR Data Directory
+
+The current compilation for UniversalCEFR is composed of **26 CEFR-labeled publicly-accessible corpora** which can be used for non-commercial research and derivations can be created as long as it follows the same license.
+
+We provide an informative data directory covering language proficiency-based information including the `language`, `format`, `category`, `annotation method`, `distinct L1 learners`, `inter-annotator agreeement`, and `license information` about the compiled datasets that may be useful for the utility of UniversalCEFR.
 
 | Corpus Name      | Lang (ISO 638-1)   | Format                                               | Category       | Size    | Annotation Method   | Expert Annotators   | Distinct L1                                                                                                        | Inter-Annotator Agreement     | CEFR Coverage   | License                                                       | Resource                                                                           |
 |:-----------------|:------------------------|:-----------------------------------------------------|:---------------|:--------|:--------------------|:--------------------|:-------------------------------------------------------------------------------------------------------------------|:------------------------------|:----------------|:--------------------------------------------------------------|:-----------------------------------------------------------------------------------|
@@ -65,16 +69,53 @@ To ensure interoperability, transformation, and machine readability, adopted **s
 | apa-lha          | de                      | document-level                                       | reference      | 3,130   | n/a                 | n/a                 | n/a                                                                                                                | n/a                           | A2-B1           | Public                                                        | \citet{spring-etal-2021-exploring ,                                                |
 | learn-welsh      | cy                      | document-level, ,  sentence-level,,  discourse-level | reference      | 1,372   | manual              | n/a                 | n/a                                                                                                                | n/a                           | A1-A2           | Public                                                        | Original                                                                         |
 
-### Accessing UniversalCEFR
+## Accessing UniversalCEFR 
+
+If you're interested in a specific individual or group of datasets from UniversalCEFR, you may access their transformed, standardised version through the UniversalCEFR Huggingface Org: https://huggingface.co/UniversalCEFR
+
+If you use any of the datasets indexed in UniversalCEFR, <u>**please cite the original dataset papers**</u> they are associated with. You can find them in the data directory above.
+
+Note that there are a few datasets in UniversalCEFR---`EFCAMDAT`, `APA-LHA`, and `DEPlain`---that are not directly available from the UniversalCEFR Huggingface Org as they require users to agree with their Terms of Use before using them for non-commercial research. Once you've done this, you can use the preprocessing Python scripts in `universal-cefr-experiments` repository to transform the raw version to UniversalCEFR version.
 
 ## Join the UniversalCEFR Initiative
 
-### Motivation
-
 ### Initiators and Collaborators
+An initiative started as a collaboration between the researchers around the world who are interested in **1) building a more open and accessible language proficiency assessment data resources** that are also **2) standardised for maximized machine readability**.
 
+ 1. Joseph Marvin Imperial (University of Bath, UK and National University Philippines)
+ 2. Abdullah Barayan (Cardiff University, UK)
+ 3. Regina Stodden (Bielefeld University, Germany)
+ 4. Rodrigo Wilkens (University of Exeter, UK)
+ 5. Ricardo Muñoz Sánchez (University of Gothenburg, Sweden)
+ 6. Lingyun Gao (UCLouvain, Belgium)
+ 7. Melissa Torgbi (University of Bath, UK)
+ 8. Dawn Knight (Cardiff University, UK)
+ 9.  Gail Forey (University of Bath, UK)
+ 10. Reka R. Jablonkai (University of Bath, UK)
+ 11. Ekaterina Kochmar (MBZUAI, UAE)
+ 12. Robert Reynolds (Brigham Young University, USA)
+ 13. Eugénio Ribeiro (INESC-ID Lisboa and Instituto Universitário de Lisboa , Portugal)
+ 14. Horacio Saggion (Universitat Pompeu Fabra, Spain)
+ 15. Elena Volodina (University of Gothenburg, Sweden)
+ 16. Sowmya Vajjala (National Research Council, Canada)
+ 17. Thomas François (UCLouvain, Belgium)
+ 18. Fernando Alva-Manchego (Cardiff University, UK)
+ 19. Harish Tayyar Madabushi (University of Bath, UK)
+
+### How to Join?
+We want to grow this community of researchers, language experts, and educators to further advance openly accessible CEFR/language proficiency assessment datasets for all. 
+
+If you're interested in this direction and/or have open dataset/s you want to add to UniversalCEFR for better exposure and utility to researchers, please send an email using the contact details in the section below. We will properly acknowledge you across the UniversalCEFR platforms.
 
 ### Contact
+For interests to join/add datasets, questions, concerns, clarifications, and issues, please contact [Joseph Marvin Imperial](https://www.josephimperial.com/) (jmri20@bath.ac.uk).
 
-### Citation
+## Reference
+Please use the following information when citing UniversalCEFR:
+
+To be updated.
+
+
+
+
 > Written with [StackEdit](https://stackedit.io/).
