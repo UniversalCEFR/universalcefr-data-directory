@@ -107,7 +107,7 @@ We want to grow this community of researchers, language experts, and educators t
 
 If you're interested in this direction and/or have open dataset/s you want to add to UniversalCEFR for better exposure and utility to researchers, please fill up this **[form](https://forms.office.com/e/hjd7ew0M8C)**. 
 
-When we add your dataset to UniversalCEFR, we will properly acknowledge you across the UniversalCEFR platforms.
+When we add your dataset to UniversalCEFR, we will cite you and the paper/project from which the dataset came across the UniversalCEFR platforms.
 
 ### Contact
 For questions, concerns, clarifications, and issues, please contact [Joseph Marvin Imperial](https://www.josephimperial.com/) (jmri20@bath.ac.uk).
