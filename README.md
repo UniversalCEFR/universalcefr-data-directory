@@ -16,9 +16,6 @@ UniversalCEFR is a largescale, multilingual, multidimensional dataset comprising
  - Russian (ru)
  - Welsh (cy)
 
-To enable open research in both automated readability and language
-proficiency assessment, UniversalCEFR comprises curated from educational and learner-oriented resources, standardized into a unified data format to support consistent processing, analysis, and modeling across tasks and languages.
-
 ## UniversalCEFR Data Format / Schema
 To ensure interoperability, transformation, and machine readability, adopted **standardised JSON format** for each CEFR-labeled text. These fields include the source dataset, language, granularity (document, paragraph, sentence, discourse), production category (learner or reference), and license.
 
