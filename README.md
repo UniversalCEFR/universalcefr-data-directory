@@ -72,7 +72,7 @@ If you're interested in a specific individual or group of datasets from Universa
 
 If you use any of the datasets indexed in UniversalCEFR, **please cite the original dataset papers** they are associated with. You can find them in the data directory above.
 
-Note that there are a few datasets in UniversalCEFR---`EFCAMDAT`, `APA-LHA`, and `DEPlain`---that are not directly available from the UniversalCEFR Huggingface Org as they require users to agree with their Terms of Use before using them for non-commercial research. Once you've done this, you can use the preprocessing Python scripts in `universal-cefr-experiments` repository to transform the raw version to UniversalCEFR version.
+Note that there are a few datasets in UniversalCEFR---`EFCAMDAT`, `APA-LHA`, `BEA Shared Task 2019 Write and Improve`, and `DEPlain`---that are not directly available from the UniversalCEFR Huggingface Org as they require users to agree with their Terms of Use before using them for non-commercial research. Once you've done this, you can use the preprocessing Python scripts in `universal-cefr-experiments` repository to transform the raw version to UniversalCEFR version.
 
 ### Contact
 For questions, concerns, clarifications, and issues, please contact [Joseph Marvin Imperial](https://www.josephimperial.com/) (jmri20@bath.ac.uk).
