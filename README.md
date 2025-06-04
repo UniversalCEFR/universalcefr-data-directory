@@ -1,6 +1,6 @@
 # The UniversalCEFR Data Directory
 
-UniversalCEFR is a largescale, multilingual, multidimensional dataset comprising of texts annotated according to the [CEFR (Common European Framework of Reference)](https://www.coe.int/en/web/common-european-framework-reference-languages/level-descriptions). The collection comprises of a total of **505,807 CEFR-labeled texts** annotated in **13 languages** in 4 script (Latin, Arabic, Devanagari, and Cyrillic).
+UniversalCEFR is a largescale, multilingual, multidimensional dataset comprising of texts annotated according to the [CEFR (Common European Framework of Reference)](https://www.coe.int/en/web/common-european-framework-reference-languages/level-descriptions). The collection comprises of a total of **505,807 CEFR-labeled texts** annotated in **13 languages** in 4 script (Latin, Arabic, Devanagari, and Cyrillic). 
 
  - English (en)
  - Spanish (es)
@@ -15,6 +15,8 @@ UniversalCEFR is a largescale, multilingual, multidimensional dataset comprising
  - Hindi (hi)
  - Russian (ru)
  - Welsh (cy)
+
+The project paper can be found here: https://arxiv.org/abs/2506.01419
 
 ## UniversalCEFR Data Format / Schema
 To ensure interoperability, transformation, and machine readability, adopted **standardised JSON format** for each CEFR-labeled text. These fields include the source dataset, language, granularity (document, paragraph, sentence, discourse), production category (learner or reference), and license.
@@ -80,7 +82,25 @@ For questions, concerns, clarifications, and issues, please contact [Joseph Marv
 ## Reference
 Please use the following information when citing UniversalCEFR:
 
-To be updated.
+BibTex Format:
+```
+@article{imperial2025universalcefr,
+  title = {{UniversalCEFR: Enabling Open Multilingual Research on Language Proficiency Assessment}},
+  author = {Joseph Marvin Imperial and Abdullah Barayan and Regina Stodden and Rodrigo Wilkens 
+    and Ricardo Muñoz Sánchez and Lingyun Gao and Melissa Torgbi and Dawn Knight and Gail Forey 
+    and Reka R. Jablonkai and Ekaterina Kochmar and Robert Reynolds and Eugénio Ribeiro and 
+    Horacio Saggion and Elena Volodina and Sowmya Vajjala and Thomas François and 
+    Fernando Alva-Manchego and Harish Tayyar Madabushi},
+  journal = {arXiv preprint arXiv:2506.01419},
+  year = {2025},
+  url = {https://arxiv.org/abs/2506.01419}
+```
+
+APA Format:
+
+```
+Imperial, J. M., Barayan, A., Stodden, R., Wilkens, R., Muñoz Sánchez, R., Gao, L., Torgbi, M., Knight, D., Forey, G., Jablonkai, R. R., Kochmar, E., Reynolds, R., Ribeiro, E., Saggion, H., Volodina, E., Vajjala, S., François, T., Alva-Manchego, F., & Tayyar Madabushi, H. (2025). UniversalCEFR: Enabling Open Multilingual Research on Language Proficiency Assessment. arXiv. https://arxiv.org/abs/2506.01419
+```
 
 
 
